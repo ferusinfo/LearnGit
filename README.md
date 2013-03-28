@@ -115,9 +115,9 @@ Naszym oczom powinno się ukazać coś podobnego do kodu podanego poniżej - jed
 ```
 
 ## Co teraz?
-Właśnie utworzyliśmy nasz pierwszy commit w repozytorium - od tej pory plik o nazwie `project.php` będzie już wersjonowany. To co udało nam się teraz zrobić, to zmiany w repozytorium lokalnym. Jeśli teraz chcemy, by nasz kod zobaczył cały czas, musimy dodać nowe repozytorium zdalne i wysłać tam zmiany naszego lokalnego repozytorium.
+Właśnie utworzyliśmy nasz pierwszy commit w repozytorium - od tej pory plik o nazwie `project.php` będzie już wersjonowany. To co udało nam się teraz zrobić, to zmiany w repozytorium lokalnym. Jeśli teraz chcemy, by nasz kod zobaczył cały świat, musimy dodać nowe repozytorium zdalne i wysłać tam zmiany naszego lokalnego repozytorium.
 
-#Repozytoria zdalne
+## Repozytoria zdalne
 Pisząc tą sekcję, skorzystam z GitHuba, jednak te same komendy można wykonywać korzystając z **BitBucketa** którego osobiście polecam jeśli potrzebujecie korzystać z repozytoriów prywatnych.
 
 Pierwsze co musimy zrobić, to założyć repozytorium na GitHubie. Ten proces jest na tyle prosty, że nie będę go opisywał. Jedyną rzeczą o którą muszę Cię jednak poprosić. to nie zaznaczanie opcji tworzenia repozytorium wraz z automatycznie tworzonym plikiem `README.md` - my mamy już swój kod i chcemy go po prostu wrzucić na GH ;)
