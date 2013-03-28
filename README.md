@@ -193,6 +193,22 @@ Kiedy już dodamy nasz drugi plik, wystarczy, że wrzucimy nasze zmiany na GitHu
 
 Kiedy odwiedzimy stronę naszego repozytorium po tak wykonanych czynnościach, powinniśmy w historii naszych zmian zobaczyć informacje o dwóch nowych commitach - możemy podejrzeć co dokładnie zostało zmienione i przez kogo.
 
+## .gitignore
+
+Czasem nie chcemy, aby wszystkie pliki naszego projektu były wersjonowane - przecież nie chcemy, aby cały świat zobaczył zawartość naszego pliku `config.php` z danymi logowania do naszej bazy danych, prawda? :)
+
+Z pomocą w tym przypadku przychodzi nam plik `.gitignore` który należy stworzyć w katalogu głównym repozytorium. Wszystkie najważniejsze informacje na temat tego pliku znajdziecie pod [tym adresem](https://help.github.com/articles/ignoring-files), ja jednak przedstawie wam to na przykładzie.
+
+Załóżmy, że mamy istniejący już projekt, który opiera się na frameworku *CodeIgniter* i nie chcemy, żeby sam framework był dodawany do naszego projektu, tak samo jak katalog `config`.
+
+Utwórzmy plik `.gitignore` i wpiszmy do niego następującą zawartość:
+
+```
+system/
+application/config/
+```
+Teraz (o ile nie zacommitowaliśmy tych plików do naszego repozytorium wcześniej), podczas kolejnych commitów lokalizacje te będą pomijane.
+
 ## Co teraz?
 
 Z tą wiedzą możemy śmiało korzystać z Git'a na co dzień - na samym początku nie będziemy potrzebować innych komend czy funkcjonalności tego systemu takich jak *gałęzie* czy *pull requesty*.
