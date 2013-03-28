@@ -10,11 +10,11 @@ Nie wykluczam dodatkowych częsci tego poradnika które obejmowałyby bardziej z
 
 Wszelkie poprawki do kodu możecie również umieszczać otwierając [issue](https://github.com/ferusinfo/LearnGit/issues) dla tego repozytorium.
 
-##Proste zarządzanie swoim projektem w rozproszonym systemie kontroli wersji
+##Proste zarządzanie projektem w rozproszonym systemie kontroli wersji
 
 *Git* jest prostym do opanowania systemem kontroli wersji - dzieki niemu jestesmy w stanie zarzadzac zmianami w naszym projekcie - m.in. sledzic zmiany poszczególnych linii kodu. Dzięki wykorzystaniu zdalnych repozytoriów mamy mozliwość współdzielenia naszego projektu z innymi programistami, co może pozwolić im na wprowadzanie własnych poprawek lub zgłaszanie korekt do już istniejącego kodu.
 
-# Jak zacząc korzystać?
+## Jak zacząc korzystać?
 
 W zależności od systemu operacyjnego korzystanie z *Git'a* możemy zacząć na różne sposoby. Najgorzej chyba w chwili obecnej mają użytkownicy Windowsa, którzy muszą instalować specjalną nakładkę na terminal systemowy. Jeśli jednak korzystamy z innych systemów, możemy skorzystać z Git'a praktycznie od razu.
 
