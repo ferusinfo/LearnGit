@@ -207,7 +207,7 @@ Utwórzmy plik `.gitignore` i wpiszmy do niego następującą zawartość:
 system/
 application/config/
 ```
-Teraz (o ile nie zacommitowaliśmy tych plików do naszego repozytorium wcześniej), podczas kolejnych commitów lokalizacje te będą pomijane.
+Teraz (o ile nie zacommitowaliśmy tych plików do naszego repozytorium wcześniej) podczas kolejnych commitów lokalizacje te będą pomijane.
 
 ## Co teraz?
 
