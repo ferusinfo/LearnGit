@@ -4,7 +4,7 @@
 
 Ten kurs powstał z potrzeby wytłumaczenia jak korzystać z tego Git'a dla osób które mają problemy ze zrozumieniem jak z niego korzystać podczas gdy uczą się z poradników w języku angielskim.
 
-Wszelkie propozycje/opinie na temat kursu wprowadzającego są bardzo mile widziane - wystarczy, że skontaktujecie się ze mną poprzez maila: <mailto:kontakt@ferus.info> lub [konto na Twitterze](http://twitter.com/ferusinfo).
+Wszelkie propozycje/opinie na temat kursu wprowadzającego są bardzo mile widziane - wystarczy, że skontaktujecie się ze mną poprzez maila: <mailto:kontakt@ferus.info> lub [@ferusinfo](http://twitter.com/ferusinfo).
 
 Nie wykluczam dodatkowych częsci tego poradnika które obejmowałyby bardziej zaawansowane aspekty korzystania z Git'a takie jak *branching*.
 
