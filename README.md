@@ -83,10 +83,11 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Jak widać, git informuje nas, że póki co nie dodaliśmy żadnych plików do naszego repozytorium, więc nie ma potrzeby wykonywania commita.
 
-Aby dodać wszystkie pliki do naszego projektu (jak wykluczyć niektóre z nich dowiemy się innym razem) należy wykonać poniższą komendę:
+Aby dodać wszystkie pliki do naszego projektu należy wykonać poniższą komendę:
 
 `git add .`
 
+**Ważne.** Jeśli masz jakieś ważne pliki których nie chcesz dodać, sprawdź [jak ignorować pliki](#gitIgnore).
 Polecenie to doda wszystkie pliki z naszego projektu do repozytorium. Znaną nam już komendą `git status` sprawdzimy, że nasze pliki zostały poprawnie dodane:
 
 ```
@@ -193,7 +194,7 @@ Kiedy już dodamy nasz drugi plik, wystarczy, że wrzucimy nasze zmiany na GitHu
 
 Kiedy odwiedzimy stronę naszego repozytorium po tak wykonanych czynnościach, powinniśmy w historii naszych zmian zobaczyć informacje o dwóch nowych commitach - możemy podejrzeć co dokładnie zostało zmienione i przez kogo.
 
-## .gitignore
+## <a id="gitIgnore"></a>.gitignore
 
 Czasem nie chcemy, aby wszystkie pliki naszego projektu były wersjonowane - przecież nie chcemy, aby cały świat zobaczył zawartość naszego pliku `config.php` z danymi logowania do naszej bazy danych, prawda? :)
 
